@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37747747">
+    <splitter split-orientation="horizontal" split-proportion="0.32785603">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
@@ -40,12 +40,15 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="413">
-                  <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+                <state relative-caret-position="360">
+                  <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
                   <folding>
-                    <marker date="1524195911349" expanded="true" signature="1361:1542" ph="..." />
-                    <marker date="1524195911349" expanded="true" signature="1361:1642" ph="..." />
-                    <marker date="1524195911349" expanded="true" signature="1378:1450" ph="..." />
+                    <marker date="1524199850039" expanded="true" signature="1387:1568" ph="..." />
+                    <marker date="1524199850039" expanded="true" signature="1387:1668" ph="..." />
+                    <marker date="1524199850039" expanded="true" signature="1404:1476" ph="..." />
+                    <marker date="1524199850039" expanded="true" signature="3251:3568" ph="..." />
+                    <marker date="1524199850039" expanded="true" signature="3272:3352" ph="..." />
+                    <marker date="1524199850039" expanded="true" signature="3455:3550" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -54,6 +57,11 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addToLocalStorage</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,7 +88,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1359" />
-    <option name="width" value="1171" />
+    <option name="width" value="1225" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -156,15 +164,15 @@
       <option name="presentableId" value="Default" />
       <updated>1524177895300</updated>
       <workItem from="1524177896449" duration="385000" />
-      <workItem from="1524186318598" duration="7678000" />
+      <workItem from="1524186318598" duration="11650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8063000" />
+    <option name="totallyTimeSpent" value="12035000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="0" width="1171" height="1047" extended-state="0" />
+    <frame x="1359" y="0" width="1225" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19421488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -207,12 +215,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="71" column="21" lean-forward="false" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        <state relative-caret-position="360">
+          <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
           <folding>
-            <marker date="1524195911349" expanded="true" signature="1361:1542" ph="..." />
-            <marker date="1524195911349" expanded="true" signature="1361:1642" ph="..." />
-            <marker date="1524195911349" expanded="true" signature="1378:1450" ph="..." />
+            <marker date="1524199850039" expanded="true" signature="1387:1568" ph="..." />
+            <marker date="1524199850039" expanded="true" signature="1387:1668" ph="..." />
+            <marker date="1524199850039" expanded="true" signature="1404:1476" ph="..." />
+            <marker date="1524199850039" expanded="true" signature="3251:3568" ph="..." />
+            <marker date="1524199850039" expanded="true" signature="3272:3352" ph="..." />
+            <marker date="1524199850039" expanded="true" signature="3455:3550" ph="..." />
           </folding>
         </state>
       </provider>
