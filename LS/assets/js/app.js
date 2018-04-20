@@ -1,21 +1,15 @@
 //variable
 const tweetList = document.getElementById('tweet-list');
 
-
 //event listener
 eventListener();
-
 function eventListener() {
     document.querySelector('#form').addEventListener('submit', newTweet);
-
     //remove tweet from the list
     tweetList.addEventListener('click',removeTweet);
-
     //document
-    document.addEventListener('DOMContentLoaded', localStorageOnLoad)
+    document.addEventListener('DOMContentLoaded', localStorageOnLoad);
 }
-
-
 
 //function
 function newTweet(e){
@@ -32,11 +26,9 @@ function newTweet(e){
     li.appendChild(removeBtn);
     // add remote btn to li
     tweetList.appendChild(li);
-
     addTweetLocalStorage(tweet);
-
     //tweet added
-    alert('tweet added')
+    alert('tweet added');
 }
 
 //remove tweet from the dom
@@ -57,7 +49,6 @@ function addTweetLocalStorage(tweet){
     tweets.push(tweet);
     // Convert tweet array into string
     localStorage.setItem('tweets',JSON.stringify(tweets));
-
 }
 
 function getTweetFromStorage(){
