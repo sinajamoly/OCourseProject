@@ -20,8 +20,8 @@ function eventListener(){
     message.addEventListener('blur', validateField);
 
     //add reset btn
-    sendEmailForm.addEventListener('submit',sendEmail)
-    resetBtn.addEventListener('click',resetForm)
+    sendEmailForm.addEventListener('submit',sendEmail);
+    resetBtn.addEventListener('click',resetForm);
 }
 
 // function
@@ -44,6 +44,10 @@ function sendEmail(e) {
     setTimeout(function(){
         spinner.style.display = 'none';
         document.querySelector('#loaders').appendChild(sendEmailImg);
+        setTimeout(function () {
+            sendEmailForm.reset();
+            sendEmailImg.remove();
+        },2000)
     },3000)
 
 }
@@ -93,6 +97,7 @@ function validateEmail(feild){
 }
 
 //reset Form
-function resetForm() {
+function resetForm(e) {
+    e.preventDefault();
     sendEmailForm.reset();
 }
