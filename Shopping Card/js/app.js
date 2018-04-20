@@ -77,6 +77,7 @@ function clearCart(){
     while(shoppingCartContent.firstChild){
         shoppingCartContent.removeChild(shoppingCartContent.firstChild);
     }
+    localStorage.clear();
 }
 
 

@@ -10,14 +10,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32785603">
+    <splitter split-orientation="horizontal" split-proportion="0.31694403">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="62" />
+                <state relative-caret-position="360">
+                  <caret line="92" column="53" lean-forward="false" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="53" />
                   <folding />
                 </state>
               </provider>
@@ -40,15 +40,15 @@
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+                <state relative-caret-position="342">
+                  <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
                   <folding>
-                    <marker date="1524199850039" expanded="true" signature="1387:1568" ph="..." />
-                    <marker date="1524199850039" expanded="true" signature="1387:1668" ph="..." />
-                    <marker date="1524199850039" expanded="true" signature="1404:1476" ph="..." />
-                    <marker date="1524199850039" expanded="true" signature="3251:3568" ph="..." />
-                    <marker date="1524199850039" expanded="true" signature="3272:3352" ph="..." />
-                    <marker date="1524199850039" expanded="true" signature="3455:3550" ph="..." />
+                    <marker date="1524200575387" expanded="true" signature="1387:1568" ph="..." />
+                    <marker date="1524200575387" expanded="true" signature="1387:1668" ph="..." />
+                    <marker date="1524200575387" expanded="true" signature="1404:1476" ph="..." />
+                    <marker date="1524200575387" expanded="true" signature="3277:3594" ph="..." />
+                    <marker date="1524200575387" expanded="true" signature="3298:3378" ph="..." />
+                    <marker date="1524200575387" expanded="true" signature="3481:3576" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -88,7 +88,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1359" />
-    <option name="width" value="1225" />
+    <option name="width" value="916" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -164,15 +164,15 @@
       <option name="presentableId" value="Default" />
       <updated>1524177895300</updated>
       <workItem from="1524177896449" duration="385000" />
-      <workItem from="1524186318598" duration="11650000" />
+      <workItem from="1524186318598" duration="12935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12035000" />
+    <option name="totallyTimeSpent" value="13320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="0" width="1225" height="1047" extended-state="0" />
+    <frame x="1359" y="0" width="916" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19421488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -207,23 +207,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="62" />
+        <state relative-caret-position="360">
+          <caret line="92" column="53" lean-forward="false" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="95" column="39" lean-forward="false" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+        <state relative-caret-position="342">
+          <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
           <folding>
-            <marker date="1524199850039" expanded="true" signature="1387:1568" ph="..." />
-            <marker date="1524199850039" expanded="true" signature="1387:1668" ph="..." />
-            <marker date="1524199850039" expanded="true" signature="1404:1476" ph="..." />
-            <marker date="1524199850039" expanded="true" signature="3251:3568" ph="..." />
-            <marker date="1524199850039" expanded="true" signature="3272:3352" ph="..." />
-            <marker date="1524199850039" expanded="true" signature="3455:3550" ph="..." />
+            <marker date="1524200575387" expanded="true" signature="1387:1568" ph="..." />
+            <marker date="1524200575387" expanded="true" signature="1387:1668" ph="..." />
+            <marker date="1524200575387" expanded="true" signature="1404:1476" ph="..." />
+            <marker date="1524200575387" expanded="true" signature="3277:3594" ph="..." />
+            <marker date="1524200575387" expanded="true" signature="3298:3378" ph="..." />
+            <marker date="1524200575387" expanded="true" signature="3481:3576" ph="..." />
           </folding>
         </state>
       </provider>
