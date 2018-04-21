@@ -25,24 +25,40 @@ function loadNames(e){
     //AJAX call
     const xhr =new XMLHttpRequest();
     //open the connection
-    xhr.open('GET',url , true);
+    // xhr.open('GET',url , true);
+    //
+    // //execute the function
+    // xhr.onload = function(){
+    //     if(this.status === 200){
+    //         const names = JSON.parse(this.responseText);
+    //         //insert into the HTML
+    //         let html = '<h2>Generated Names</h2>';
+    //         html += '<ul class="list">';
+    //         names.forEach(function (name) {
+    //             html +=`
+    //                 <li>${name.name}</li>
+    //             `;
+    //         });
+    //         html += '</ul>';
+    //         document.querySelector('#result').innerHTML= html;
+    //     }
+    // }
+    // xhr.send();
 
-    //execute the function
-    xhr.onload = function(){
-        if(this.status === 200){
-            const names = JSON.parse(this.responseText);
-            //insert into the HTML
-            let html = '<h2>Generated Names</h2>';
-            html += '<ul class="list">';
-            names.forEach(function (name) {
-                html +=`
-                    <li>${name.name}</li>
-                `;
-            });
-            html += '</ul>';
-            document.querySelector('#result').innerHTML= html;
-        }
-    }
-    xhr.send();
+    fetch(url).then(function(response){
+        return response.json();
+    }).then(function(names){
+        let html = '<h2>Generated Names</h2>';
+                html += '<ul class="list">';
+                names.forEach(function (name) {
+                    html +=`
+                        <li>${name.name}</li>
+                    `;
+                });
+                html += '</ul>';
+                document.querySelector('#result').innerHTML= html;
+    }).catch(function (error){
+        console.log(error);
+    });
 
 }
