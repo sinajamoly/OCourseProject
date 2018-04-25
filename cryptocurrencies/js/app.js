@@ -11,6 +11,9 @@ form.addEventListener('submit', e =>{
     if(currencySelect === '' || cryptoCurrencySelect === ''){
         ui.printMessage('All the fields are mandatory', 'deep-orange darken-4 card-panel');
     }else{
-        console.log('success')
+        cryptoAPI.queryAPI(currencySelect,cryptoCurrencySelect).then(data=>{
+            ui.displayResult(data.result[0], currencySelect);
+            console.log(data);
+        });
     }
 })
