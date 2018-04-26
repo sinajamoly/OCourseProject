@@ -13,7 +13,7 @@ document.getElementById('submitBtn').addEventListener('click', e=>{
         eventBrite.queryAPI(eventName,category).then(response => {
             const eventsList = response.events.events;
             if(eventsList.length > 0){
-
+                ui.displayEvents(eventsList);
             }else{
                 ui.printMessage('No result found', 'alert alert-danger mt-4 text-center')
             }
