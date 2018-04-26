@@ -20,4 +20,15 @@ class UI{
                 })
             });
     }
+
+    printMessage(message, classname){
+        const div = document.createElement('div');
+        div.className = classname;
+        div.appendChild(document.createTextNode(message));
+        const searchDiv = document.querySelector('#search-events');
+        searchDiv.appendChild(div);
+        setTimeout(()=>{
+            document.querySelector('#search-events .alert').remove();
+        },3000)
+    }
 }
