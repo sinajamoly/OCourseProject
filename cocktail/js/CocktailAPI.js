@@ -26,4 +26,11 @@ class CockTailAPI{
             cockTails
         }
     }
+
+    async getCategories(){
+        const apiResponse = await fetch('https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list');
+        const categories = await apiResponse.json();
+        //console.log(categories);
+        return {categories}
+    };
 }

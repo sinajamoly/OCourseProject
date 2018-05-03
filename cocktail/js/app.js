@@ -8,6 +8,9 @@ const cockTail =new CockTailAPI();
 
 //CREATE THE EVENT LISTENERS
 function eventListener(){
+
+    document.addEventListener('DOMContentLoaded',documentReady)
+
     const searchForm = document.querySelector('#search-form');
     if(searchForm){
         searchForm.addEventListener('submit', getCocktails);
@@ -68,6 +71,16 @@ function resultsDelegation(e) {
     if(e.target.classList.contains('get-recipe')){
         cockTail.getSingleRecipe(e.target.dataset.id).then(recipe => {
             //display single recipe to the model
+            console.log(recipe)
+            ui.displaySingleRecipe(recipe.cockTails.drinks[0]);
         });
+    }
+}
+
+function documentReady() {
+    //select the search category
+    const searchCategory = document.querySelector('.search-category');
+    if(searchCategory){
+        ui.displayCategories();
     }
 }
