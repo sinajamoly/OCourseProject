@@ -22,18 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-              <folding>
-                <marker date="1525304183652" expanded="true" signature="105:258" ph="{...}" />
-                <marker date="1525304183652" expanded="true" signature="188:256" ph="{...}" />
-                <marker date="1525304183652" expanded="true" signature="326:652" ph="{...}" />
-                <marker date="1525304183652" expanded="true" signature="479:596" ph="{...}" />
-                <marker date="1525304183652" expanded="true" signature="600:650" ph="{...}" />
-              </folding>
+            <state relative-caret-position="529">
+              <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,8 +35,8 @@
       <file leaf-file-name="CocktailAPI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/CocktailAPI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -58,13 +52,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UI.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UI.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/UI.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="281">
+              <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
               <folding>
-                <marker date="1525305030949" expanded="true" signature="205:323" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="390:890" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="434:867" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="586:840" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="1317:2809" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="1361:2786" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="1538:2759" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="1757:1847" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="1897:1930" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="1953:2161" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="2333:2728" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="2411:2510" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="2588:2695" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="3491:3583" ph="..." />
+                <marker date="1525326198919" expanded="true" signature="3847:3965" ph="..." />
               </folding>
             </state>
           </provider>
@@ -73,9 +80,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="59" column="96" lean-forward="false" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="96" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +94,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/UI.js" />
+        <option value="$PROJECT_DIR$/js/CocktailAPI.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -107,7 +117,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1359" />
-    <option name="width" value="1352" />
+    <option name="width" value="1313" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -182,18 +192,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525294628793</updated>
-      <workItem from="1525294629990" duration="3766000" />
+      <workItem from="1525294629990" duration="11933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3766000" />
+    <option name="totallyTimeSpent" value="11933000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1359" y="0" width="1352" height="1047" extended-state="0" />
+    <frame x="1359" y="0" width="1313" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13931888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14365523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25125208" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -219,15 +229,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/CocktailAPI.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="59" column="96" lean-forward="false" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="96" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -239,35 +253,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/UI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="281">
+          <caret line="19" column="64" lean-forward="false" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding>
+            <marker date="1525326198919" expanded="true" signature="390:890" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="434:867" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="586:840" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="1317:2809" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="1361:2786" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="1538:2759" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="1757:1847" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="1897:1930" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="1953:2161" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="2333:2728" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="2411:2510" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="2588:2695" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="3491:3583" ph="..." />
+            <marker date="1525326198919" expanded="true" signature="3847:3965" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/CocktailAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-          <folding>
-            <marker date="1525304183652" expanded="true" signature="105:258" ph="{...}" />
-            <marker date="1525304183652" expanded="true" signature="188:256" ph="{...}" />
-            <marker date="1525304183652" expanded="true" signature="326:652" ph="{...}" />
-            <marker date="1525304183652" expanded="true" signature="479:596" ph="{...}" />
-            <marker date="1525304183652" expanded="true" signature="600:650" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/UI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <marker date="1525305030949" expanded="true" signature="205:323" ph="..." />
-          </folding>
+        <state relative-caret-position="529">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>

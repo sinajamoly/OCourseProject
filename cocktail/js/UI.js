@@ -2,6 +2,94 @@
 
 class UI{
 
+    displayDrink(drinks){
+        //show the results
+        const resultsWrapper = document.querySelector('.results-wrapper');
+        resultsWrapper.style.display = 'block';
+
+        //Insert the results
+        const resultsDiv = document.querySelector('#results');
+
+        drinks.forEach(drink=>{
+            resultsDiv.innerHTML += `
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="${drink.strDrinkThumb}" alt="${drink.strDrink}">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">${drink.strDrink}</h2>
+                            <a class="btn btn-success get-recipe" href="#" data-toggle="modal" data-id="${drink.idDrink}">Get Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        })
+
+    }
+
+    displayDrinksWithIngredients(drinks){
+        //show the results
+        const resultsWrapper = document.querySelector('.results-wrapper');
+        resultsWrapper.style.display = 'block';
+        //Insert the results
+        const resultsDiv = document.querySelector('#results');
+        drinks.forEach(drink =>{
+            resultsDiv.innerHTML +=`
+                <div class="col-md-6">
+                    <div class="card my-3">
+                        <img class="card-img-top" src="${drink.strDrinkThumb}" alt="${drink.strDrink}">
+                        
+                        <div class="card-body">
+                            <h2 class="card-title text-center">${drink.strDrink}</h2>
+                            <p class="card-text font-weight-bold">Instructions</p>
+                            <p class="card-text">
+                                ${drink.strInstructions}
+                            </p>
+                            <p class="card-text">
+                                <ul class="list-group">
+                                    <li class="list-group-item alert alert-danger">Ingredients</li>
+                                    ${this.displayIngredients(drink)}
+                                </ul>
+                            </p>
+                            <p class="card-text font-weight-bold">Extra Information:</p>
+                            <p class="card-text">
+                                <span class="badge badge-pill badge-success">
+                                    ${drink.strAlchoholic}
+                                </span>
+                                <span class="badge badge-pill badge-warning">
+                                    category: ${drink.strCategory}
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        })
+    }
+
+
+    //Print the ingredients and measurements
+    displayIngredients(drink){
+        let ingredients = [];
+        for(let i = 1; i<16 ; i++){
+            const ingredientMeasure = {};
+            if(drink[`strIngredient${i}`] !== ''){
+                ingredientMeasure.ingredient = drink[`strIngredient${i}`];
+                ingredientMeasure.measure = drink[`strMeasure${i}`];
+                ingredients.push(ingredientMeasure);
+            }
+        }
+        //build the template
+        let ingredientsTemplate = '';
+        ingredients.forEach(ingredient=>{
+            ingredientsTemplate += `
+                 <li class="list-group-item">
+                    ${ingredient.ingredient} - ${ingredient.measure}
+                 </li>
+            `;
+        });
+        return ingredientsTemplate;
+    }
+
     printMessage(message,className){
         const div = document.createElement('div');
 
@@ -17,5 +105,10 @@ class UI{
         setTimeout(()=>{
             document.querySelector('.alert').remove();
         },3000)
+    }
+
+    clearResults(){
+        const resultsDiv = document.querySelector('#results');
+        resultsDiv.innerHTML = '';
     }
 }
