@@ -1,6 +1,7 @@
 // INSTANCIATE THE CLASSES
 const ui = new UI();
 const cockTail =new CockTailAPI();
+const cockTailDB = new CockTailDB();
 
 
 
@@ -46,7 +47,12 @@ function getCocktails(e){
                 break;
             case 'ingredient':
                 serverResponse = cockTail.getDrinksByIngredient(searchTerm);
-                console.log(serverResponse);
+                break;
+            case 'category':
+                serverResponse = cockTail.getDrinksByCategory(searchTerm);
+                break;
+            case 'alcohol':
+                serverResponse = cockTail.getDrinksByAlcohol(searchTerm);
                 break;
         }
         ui.clearResults();
@@ -70,17 +76,53 @@ function resultsDelegation(e) {
     e.preventDefault();
     if(e.target.classList.contains('get-recipe')){
         cockTail.getSingleRecipe(e.target.dataset.id).then(recipe => {
-            //display single recipe to the model
-            console.log(recipe)
             ui.displaySingleRecipe(recipe.cockTails.drinks[0]);
         });
+    }
+    if(e.target.classList.contains('favorite-btn')){
+        if(e.target.classList.contains('is-favorite')){
+            e.target.classList.remove('is-favorite');
+            e.target.textContent = '+';
+            cockTailDB.removeFromDB(e.target.dataset.id);
+        }else{
+            e.target.classList.add('is-favorite');
+            e.target.textContent = '-';
+            const cardBody = e.target.parentElement;
+            const drinkInfo = {
+                id: e.target.dataset.id,
+                name: cardBody.querySelector('.card-title').textContent,
+                image: cardBody.querySelector('.card-img-top').src,
+            }
+            cockTailDB.saveIntoDB(drinkInfo);
+        }
+
     }
 }
 
 function documentReady() {
+    //display on load when cocktail is favorite
+
+
     //select the search category
     const searchCategory = document.querySelector('.search-category');
     if(searchCategory){
         ui.displayCategories();
+    }
+    const favoritesTable = document.querySelector('#favorites');
+    if(favoritesTable){
+        const drinks = cockTailDB.getFromDB();
+        ui.displayFavorites(drinks);
+        favoritesTable.addEventListener('click',e =>{
+            e.preventDefault();
+            if(e.target.classList.contains('get-recipe')){
+                cockTail.getSingleRecipe(e.target.dataset.id).then(recipe => {
+                    ui.displaySingleRecipe(recipe.cockTails.drinks[0]);
+                })
+            }
+            if(e.target.classList.contains('remove-recipe')){
+                ui.removeFavorite(e.target.parentElement.parentElement);
+                cockTailDB.removeFromDB(e.target.dataset.id);
+            }
+        })
     }
 }

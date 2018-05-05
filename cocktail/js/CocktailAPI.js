@@ -33,4 +33,20 @@ class CockTailAPI{
         //console.log(categories);
         return {categories}
     };
+
+    async getDrinksByCategory(category){
+        const apiResponse = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=${category}`);
+        const cockTails = await apiResponse.json();
+        return {
+            cockTails
+        }
+    }
+
+    async getDrinksByAlcohol(term){
+        const apiResponse = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=${term}`);
+        const cockTails = await apiResponse.json();
+        return {
+            cockTails
+        }
+    }
 }
